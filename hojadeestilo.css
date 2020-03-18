@@ -1,0 +1,136 @@
+body {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 24px; /* este atributo controla el espacio  entre las líneas de un texto*/
+    background-color: #ebe0bc ;
+}
+
+#page-wrap {
+    width: 800px;
+    margin: 40px auto 60px;
+}
+
+#pic { /*ubicación de la foto*/
+    width: 32%;
+    height: 72%;
+    float: right;
+    margin: -30px 0 0 0;
+}
+
+h2.hola {
+    margin: 0 0 16px 0;
+    padding: 0 0 16px 0;
+    font-size: 42px;
+    letter-spacing: -2px;
+    border-bottom: 1px solid #999;
+    color: black ;
+}
+
+p.uno {
+    margin: 0 0 16px 0;
+}
+
+a { /* afecta al link del mail*/
+    color: rgb(100, 98, 98);
+    text-decoration: none;
+    border-bottom: 1px dotted rgb(100, 98, 98);
+}
+
+a:hover { 
+    border-bottom-style: solid;
+    color: black;
+}
+
+#objective {
+    width: 500px;
+    float: inherit;
+}
+
+#objective p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+/*todo lo de arriba es css general de la parte superior
+Esto de abajo es el estilo de los botones y td de la tabla*/
+
+td.ally {
+    width: 400px; 
+    height: 190px;
+    text-align: center ;
+    border-radius: 15px;
+    box-shadow: none;
+    border: none;
+  }
+
+.myButton {
+    width: 100%; 
+    height: 100%;
+	background-color:transparent;
+	border-radius:15px;
+    cursor:pointer;
+    box-shadow: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.myButton:hover {
+    background-color:#4d4a4a59;
+}
+
+.myButton:hover span{
+    display: block;
+}
+
+span.invisible {
+    display: none;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+
+span.invisible2 {
+    display: none;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(41, 41, 41);
+    font-weight: bolder;
+}
+
+#n1 {
+    display: none;
+ visibility: hidden;
+}
+
+#n2 {
+ display: none;
+ visibility: hidden ;
+}
+
+#n3 {
+ display: none ;
+ visibility: hidden;
+}
+
+#n4 {
+ display: none ;
+ visibility: hidden ;
+}
+
+td.parrafo {
+    text-align: left;
+    border: lightcoral;
+    background-color: #e7c6c6;
+    width: 1000px;
+    height: 100px;
+    background-origin: padding-box;
+    padding: 2px;
+
+}
+
+p.creditos{
+    color: lightslategrey;
+    font-size: x-small;
+    text-align: center;
+}
